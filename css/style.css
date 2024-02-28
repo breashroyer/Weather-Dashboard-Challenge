@@ -88,6 +88,17 @@ main {
     background-color: #f8f9fa;
 }
 
+.history-item {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.history-item:hover {
+    background-color: #f0f0f0;
+}
+
+
 @media (min-width: 768px) {
     main {
         grid-template-columns: 2fr 1fr;
